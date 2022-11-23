@@ -1,0 +1,42 @@
+.offcanvas {
+    border-left: 5px double rgb(135, 104, 1) !important;
+    background-color: rgba(37, 37, 37, 0.605) !important;
+}
+
+.offcanvas-title {
+    margin: auto;
+    color: white;
+}
+
+.offcanvas-close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+}
+
+.offcanvas-header button {
+    background-color: rgba(245, 245, 245, 0.103);
+    border-radius: 50px;
+}
+
+.stack {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 3px rgb(215, 165, 0) double;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.x-btn {
+    height: 25px;
+    width: 25px;
+}
+
+.x-btn:hover {
+    border-color: red !important;
+}

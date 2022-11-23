@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Phone 1",
+      "price": 10.99,
+      "imgUrl": "https://cdn.pixabay.com/photo/2017/05/29/19/11/smartphone-2354577_960_720.png"
+    },
+    {
+      "id": 2,
+      "name": "Phone 2",
+      "price": 1199,
+      "imgUrl": "https://cdn.pixabay.com/photo/2013/07/13/10/22/smartphone-157082_960_720.png"
+    },
+    {
+      "id": 3,
+      "name": "Phone 3",
+      "price": 1.05,
+      "imgUrl": "https://cdn.pixabay.com/photo/2019/03/23/19/57/smartphone-4076145_960_720.png"
+    },
+    {
+      "id": 4,
+      "name": "Phone 4",
+      "price": 1400,
+      "imgUrl": "https://cdn.pixabay.com/photo/2013/07/12/13/57/smartphone-147656_960_720.png"
+    }
+  ]
