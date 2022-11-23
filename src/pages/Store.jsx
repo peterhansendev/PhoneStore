@@ -6,6 +6,7 @@ import "react-multi-carousel/lib/styles.css";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 import { Button, Container, Nav, Navbar as NavbarBs } from "react-bootstrap";
 
+
 export function Store() {
   const { openCart, cartQuantity } = useShoppingCart();
   const responsive = {
@@ -28,6 +29,8 @@ export function Store() {
   };
   return (
     <div className="store">
+      <h1>Premium Phones</h1>
+      <h2>luxurious phones with state of the art technology</h2>
       <Container>
         <Button
           onClick={openCart}

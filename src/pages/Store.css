@@ -4,6 +4,20 @@ body {
     min-width: 500px;
 }
 
+
+h1,
+h2 {
+    font-family: 'Dancing Script', cursive;
+    color: rgba(245, 245, 245, 0.916);
+    margin: auto;
+    font-size: 150px;
+}
+
+h2 {
+    color: rgb(228, 193, 76);
+
+}
+
 .store {
     height: 100vh;
     display: flex;
@@ -12,7 +26,6 @@ body {
 }
 
 .card {
-    margin-top: 10px !important;
     margin-bottom: 10px !important;
     width: 45vw !important;
     height: 35vw !important;
@@ -119,7 +132,7 @@ body {
     color: rgb(255, 196, 0) !important;
     text-transform: uppercase !important;
     border: none !important;
-
+    height: 40px;
 }
 
 .someClass:hover {
