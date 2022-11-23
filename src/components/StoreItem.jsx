@@ -54,7 +54,7 @@ export function StoreItem({ id, name, price, imgUrl }) {
                 style={{ gap: ".5rem" }}
               >
                 <Button
-                  className="btn w-25 h-25"
+                  className="small-btn d-flex justify-content-center align-items-center"
                   onClick={() => decreaseCartQuantity(id)}
                 >
                   -
@@ -63,7 +63,7 @@ export function StoreItem({ id, name, price, imgUrl }) {
                   <span>{quantity}</span> in cart
                 </div>
                 <Button
-                  className="btn w-25 h-25"
+                  className="small-btn  d-flex justify-content-center align-items-center"
                   onClick={() => increaseCartQuantity(id)}
                 >
                   +

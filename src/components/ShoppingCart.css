@@ -40,3 +40,12 @@
 .x-btn:hover {
     border-color: red !important;
 }
+
+.small-btn {
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.small-btn:hover {
+    color: whitesmoke !important;
+}
