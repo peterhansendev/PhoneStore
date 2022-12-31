@@ -166,8 +166,3 @@ h2 {
     opacity: 100%;
 }
 
-@media (max-width: 1250px) {
-   .card {
-    margin-top: 300px;
-   }
-  }
