@@ -15,12 +15,13 @@ h2 {
 
 h2 {
     color: rgb(228, 193, 76);
-    
     text-align: center;
 }
 
+
+
 .store {
-    height: 100vh;
+    height: 100vh !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,3 +165,9 @@ h2 {
 .cart-btn:hover {
     opacity: 100%;
 }
+
+@media (max-width: 1250px) {
+   .card {
+    margin-top: 300px;
+   }
+  }
