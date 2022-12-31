@@ -32,10 +32,10 @@ export function StoreItem({ id, name, price, imgUrl }) {
         style={{ objectFit: "contain" }}
       />
       <Card.Body className={mouse ? "card-body" : "card-body-hidden"}>
-        <Card.Title className="title   align-items-center mb-4">
-          <span className="fs-2">{name}</span>
+        <Card.Title className="title align-items-center mb-4">
+          <span className=" font-size">{name}</span>
 
-          <span className="ms-2 text-white ">{formatCurrency(price)}</span>
+          <span className="ms-2 text-white font-size">{formatCurrency(price)}</span>
         </Card.Title>
         <div className="mt-auto  bottom">
           {quantity === 0 ? (
