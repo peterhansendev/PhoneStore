@@ -1,7 +1,7 @@
 body {
     background-image: linear-gradient(rgba(251, 251, 251, 0.05), rgba(255, 255, 255, 0.05)), url("singapore-ge14ea0bed_1920.jpg");
     background-position: center;
-    min-width: 500px;
+    min-width: 400px;
 }
 
 
@@ -15,7 +15,8 @@ h2 {
 
 h2 {
     color: rgb(228, 193, 76);
-
+    
+    text-align: center;
 }
 
 .store {
@@ -29,7 +30,7 @@ h2 {
     margin-bottom: 10px !important;
     width: 45vw !important;
     height: 35vw !important;
-    min-width: 450px !important;
+    min-width: 370px !important;
     min-height: 450px !important;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.725) !important;
@@ -39,6 +40,7 @@ h2 {
     justify-content: center;
     outline: black solid 3px !important;
     overflow: hidden;
+    padding: 90px;
 }
 
 .card:after {
@@ -85,6 +87,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     color: rgb(255, 196, 0) !important;
+
 }
 
 
