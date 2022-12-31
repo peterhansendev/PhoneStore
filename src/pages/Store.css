@@ -19,7 +19,6 @@ h2 {
 }
 
 
-
 .store {
     height: 100vh !important;
     display: flex;
@@ -127,6 +126,9 @@ h2 {
     color: black !important;
     border: 4px double black !important;
     border-radius: 100% !important;
+    position: absolute;
+    top: -150px;
+    right: 20%;
 }
 
 .someClass {
