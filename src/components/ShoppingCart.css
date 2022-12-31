@@ -49,3 +49,7 @@
 .small-btn:hover {
     color: whitesmoke !important;
 }
+
+.mobile-img {
+    padding: 10px !important;
+}

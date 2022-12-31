@@ -40,7 +40,6 @@ h2 {
     justify-content: center;
     outline: black solid 3px !important;
     overflow: hidden;
-    padding: 90px;
 }
 
 .card:after {
@@ -98,14 +97,14 @@ h2 {
     }
 
     to {
-        transform: translateX(0);
+        transform: translateX(0vw);
 
     }
 }
 
 .card-body-hidden {
     animation: superman-fly-left ease-in 0.8s backwards;
-    transform: translateX(-150%);
+    transform: translateX(-100%);
 }
 
 
@@ -126,9 +125,7 @@ h2 {
     color: black !important;
     border: 4px double black !important;
     border-radius: 100% !important;
-    position: absolute;
-    top: -150px;
-    right: 20%;
+    
 }
 
 .someClass {
@@ -162,6 +159,9 @@ h2 {
 .cart-btn {
     margin-left: 100%;
     opacity: 80%;
+    position: absolute;
+    top: -150px;
+    right: 20%;
 }
 
 .cart-btn:hover {

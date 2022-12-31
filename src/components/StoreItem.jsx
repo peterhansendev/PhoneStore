@@ -28,6 +28,7 @@ export function StoreItem({ id, name, price, imgUrl }) {
         variant="top"
         src={imgUrl}
         height="400px"
+        className="mobile-img"
         style={{ objectFit: "contain" }}
       />
       <Card.Body className={mouse ? "card-body" : "card-body-hidden"}>
