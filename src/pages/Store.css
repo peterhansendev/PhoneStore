@@ -2,8 +2,9 @@ body {
     background-image: linear-gradient(rgba(251, 251, 251, 0.05), rgba(255, 255, 255, 0.05)), url("singapore-ge14ea0bed_1920.jpg");
     background-position: center;
     min-width: 400px;
+    width: 100vw !important;
+    margin: auto !important;
 }
-
 
 h1,
 h2 {
@@ -11,6 +12,7 @@ h2 {
     color: rgba(245, 245, 245, 0.916);
     margin: auto;
     font-size: 150px;
+    text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
 }
 
 h2 {
@@ -157,11 +159,7 @@ h2 {
 }
 
 .cart-btn {
-    margin-left: 100%;
-    opacity: 80%;
-    position: absolute;
-    top: -150px;
-    right: 20%;
+    float: right;
 }
 
 .cart-btn:hover {

@@ -62,7 +62,7 @@ export function Store() {
           </div>
         </Button>
       </Container>
-      <Carousel  responsive={responsive}  infinite={true} >
+      <Carousel responsive={responsive}  infinite={true} >
         {storeItems.map((item) => (
           <div key={item.id}>
             <StoreItem {...item} />
