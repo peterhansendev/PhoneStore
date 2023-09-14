@@ -165,3 +165,14 @@ h2 {
 .cart-btn:hover {
   opacity: 100%;
 }
+
+@media only screen and (max-height: 625px) {
+    h2 {
+        display: none;
+    }
+
+    h1 {
+        margin-bottom: -20px !important;
+        font-size: 2.2rem !important;
+    }
+  }
